@@ -1,0 +1,14 @@
+name: Ranks
+author: ItzFabb
+version: 1
+api: ["3", "4"]
+main: ItzFabb\Main
+
+commands:
+  ranks:
+    description: list all ranks features on this server
+    permission: ranks.command
+    
+permission:
+  ranks.command:
+    description: allows player /ranks
