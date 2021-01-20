@@ -1,0 +1,499 @@
+#
+
+#Available Placeholders: 
+
+# & ⟩ § 
+
+# +n ⟩ \n
+
+command-ingame: "&c&lError: +n&r&7Please use this command in-game"
+
+no-perm: "&c&lError: +n&r&7Sorry &c%player_name% &7you don't have permission ro use this command!"
+
+#the gui settings:
+
+title-ranks: "               &d&lRANKS LIST"
+
+item.id.exit: 152 
+
+item.meta.exit: 0
+
+#Send a sound when player click the item
+
+item.id.rank: 263
+
+item.meta.rank: 0
+
+item.id.rank1: 160 
+
+item.meta.rank1: 0 
+
+item.id.rank2: 265 
+
+item.neta.rank2: 0 
+
+item.id.rank3: 266 
+
+item.meta.rank3: 0
+
+item.id.rank4: 264 
+
+item.meta.rank4: 0
+
+item.id.rank5: 388 
+
+item.meta.rank5: 0
+
+item.id.rank6: 173
+
+item.meta.rank6: 0
+
+item.id.rank7: 42
+
+item.meta.rank7: 0 
+
+item.id.rank8: 41
+
+item.neta.rank8: 0 
+
+item.id.rank9: 57
+
+item.meta.rank9: 0
+
+item.id.rank10: 133
+
+item.meta.rank10: 0
+
+#The Gui items 
+
+item.id: 263
+
+item.meta: 0
+
+item.name: "&r&e&lRANKS:+n&r&7Name: &7Guest+n&7Prefix: &7[Guest] &a%player_name%+n&7Price: &a$&e5+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1"
+
+item.count: 1
+
+item.id1: 160
+
+item.meta1: 7
+
+item.name1: "&r&7&r"
+
+item.count1: 1
+
+item.id2: 265
+
+item.meta2: 0
+
+item.name2: "&r&e&lRANKS:+n&r&7Name: &eVIP+n&7Prefix: &e[VIP] &f%player_name%+n&7Price: &a$&e9.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 "
+
+item.count2: 1
+
+item.id3: 160
+
+item.meta3: 7
+
+item.name3: "&7&r&7"
+
+item.count3: 1
+
+item.id4: 266
+
+item.meta4: 0
+
+item.name4: "&r&e&lRANKS:+n&r&7Name: &eVIP&a++n&7Prefix: &e[VIP&a+&e] &f%player_name%+n&7Price: &a$&e14.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+&7 Features 3"
+
+item.count4: 1
+
+item.id5: 160
+
+item.meta5: 7
+
+item.name5: "&7&r&7"
+
+item.count5: 1
+
+item.id6: 264
+
+item.meta6: 0
+
+item.name6: "&r&e&lRANKS:+n&r&7Name: &eVIP&a+++n&7Prefix: &e[VIP&a++&e] &f%player_name%+n&7Price: &a$&e19.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3 +n&a+&7 Features 4"
+
+item.count6: 1
+
+item.id7: 160
+
+item.meta7: 7
+
+item.name7: "&7&r&7"
+
+item.count7: 1
+
+item.id8: 388
+
+item.meta8: 0
+
+item.name8: "&r&e&lRANKS:+n&r&7Name: &eVIP&a^+n&7Prefix: &e[VIP&a^&e] &f%player_name%+n&7Price: &a$&e29.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+&7 Features 3 +n&a+ &7Features 4+n&a+&7 Features 5"
+
+item.count8: 1
+
+item.id9: 160
+
+item.meta9: 7
+
+item.name9: "&7&r&7"
+
+item.count9: 1
+
+item.id10: 160
+
+item.meta10: 7
+
+item.name10: "&7&r&7"
+
+item.count10: 1
+
+item.id11: 160
+
+item.meta11: 7
+
+item.name11: "&7&r&7"
+
+item.count11: 1
+
+item.id12: 160
+
+item.meta12: 7
+
+item.name12: "&7&r&7"
+
+item.count12: 1
+
+item.id13: 160
+
+item.meta13: 7
+
+item.name13: "&7&r&7"
+
+item.count13: 1
+
+item.id14: 160
+
+item.meta14: 7
+
+item.name14: "&7&r&7"
+
+item.count14: 1
+
+item.id15: 160
+
+item.meta15: 7
+
+item.name15: "&7&r&7"
+
+item.count15: 1
+
+item.id16: 160
+
+item.meta16: 7
+
+item.name16: "&7&r&7"
+
+item.count16: 1
+
+item.id17: 160
+
+item.meta17: 7
+
+item.name17: "&7&r&7"
+
+item.count17: 1
+
+item.id18: 173
+
+item.meta18: 0
+
+item.name18: "&r&e&lRANKS:+n&r&7Name: &bMVPn&7Prefix: &b[MVP] &f%player_name%+n&7Price: &a$&e39.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3+n&a+ &7Features 4 +n&a+ &7Features 5+n&a+ &7Features 6"
+
+item.count18: 1 
+
+item.id19: 160
+
+item.meta19: 7
+
+item.name19: "&7&r&7"
+
+item.count19: 1
+
+item.id20: 42
+
+item.meta20: 0
+
+item.name20: "&r&e&lRANKS:+n&r&7Name: &bMVP&c+n&7Prefix: &b[MVP&c+&b] &f%player_name%+n&7Price: &a$&e49.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3+n&a+ &7Features 4 +n&a+ &7Features 5+n&a+ &7Features 6+n&a+ &7Features 7"
+
+item.count20: 1
+
+item.id21: 160
+
+item.meta21: 7
+
+item.name21: "&7&r&7"
+
+item.count21: 1
+
+item.id22: 41
+
+item.meta22: 0
+
+item.name22: "&r&e&lRANKS:+n&r&7Name: &bMVP&c++n&7Prefix: &b[MVP&c++&b] &f%player_name%+n&7Price: &a$&e59.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3+n&a+ &7Features 4 +n&a+ &7Features 5+n&a+ &7Features 6+n&a+ &7Features 7+n&a+ &7Features 8"
+
+item.count22: 1
+
+item.id23: 160
+
+item.meta23: 7
+
+item.name23: "&7&r&7"
+
+item.count23: 1
+
+item.id24: 57
+
+item.meta24: 0
+
+item.name24: "&r&e&lRANKS:+n&r&7Name: &bMVP&c^n&7Prefix: &b[MVP&c^&b] &f%player_name%+n&7Price: &a$&e69.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3+n&a+ &7Features 4 +n&a+ &7Features 5+n&a+ &7Features 6+n&a+ &7Features 7+n&a+ &7Features 8+n&a+ &7Features 9"
+
+item.count24: 1
+
+item.id25: 160
+
+item.meta25: 7
+
+item.name25: "&7&r&7"
+
+item.count25: 1
+
+item.id26: 133
+
+item.meta26: 7
+
+item.name26: "&r&e&lRANKS:+n&r&7Name: &bMVP&4^^n&7Prefix: &b[MVP&4^^&b] &f%player_name%+n&7Price: &a$&e79.99+n&7Discount: &c0%+n&7Testimony: &a0+n+n+n&dFeatures:+n&a+ &7Features 1+n&a+&7Features 2 +n&a+ &7Features 3+n&a+ &7Features 4 +n&a+ &7Features 5+n&a+ &7Features 6+n&a+ &7Features 7+n&a+ &7Features 8+n&a+ &7Features 9+n&a+ &7Features 10"
+
+item.count26: 1
+
+item.id27: 160
+
+item.meta27: 7
+
+item.name27: "&7&r&7"
+
+item.count27: 1
+
+item.id28: 160
+
+item.meta28: 7
+
+item.name28: "&7&r&7"
+
+item.count28: 1
+
+item.id29: 160
+
+item.meta29: 7
+
+item.name29: "&7&r&7"
+
+item.count29: 1
+
+item.id30: 160
+
+item.meta30: 7
+
+item.name30: "&7&r&7"
+
+item.count30: 1
+
+item.id31: 160
+
+item.meta31: 7
+
+item.name31: "&r&7&r"
+
+item.count31: 1
+
+item.id32: 160
+
+item.meta32: 7
+
+item.name32: "&7&r&7"
+
+item.count32: 1
+
+item.id33: 160
+
+item.meta33: 7
+
+item.name33: "&7&r&7"
+
+item.count33: 1
+
+item.id34: 160
+
+item.meta34: 7
+
+item.name34: "&7&r&7"
+
+item.count34: 1
+
+item.id35: 160
+
+item.meta35: 7
+
+item.name35: "&7&r&7"
+
+item.count35: 1
+
+item.id36: 160
+
+item.meta36: 7
+
+item.name36: "&7&r&7"
+
+item.count36: 1
+
+item.id37: 160
+
+item.meta37: 7
+
+item.name37: "&7&r&7"
+
+item.count37: 1
+
+item.id38: 160
+
+item.meta38: 7
+
+item.name38: "&7&r&7"
+
+item.count38: 1
+
+item.id39: 160
+
+item.meta39: 7
+
+item.name39: "&7&r&7"
+
+item.count39: 1
+
+item.id40: 160
+
+item.meta40: 7
+
+item.name40: "&7&r&7"
+
+item.count40: 1
+
+item.id41: 160
+
+item.meta41: 7
+
+item.name41: "&7&r&7"
+
+item.count41: 1 
+
+item.id42: 160
+
+item.meta42: 7
+
+item.name42: "&7&r&7"
+
+item.count42: 1
+
+item.id43: 160
+
+item.meta43: 7
+
+item.name43: "&7&r&7"
+
+item.count43: 1
+
+item.id44: 160
+
+item.meta44: 7
+
+item.name44: "&7&r&7"
+
+item.count44: 1
+
+item.id45: 160
+
+item.meta45: 7
+
+item.name45: "&7&r&7"
+
+item.count45: 1
+
+item.id46: 160
+
+item.meta46: 7
+
+item.name46: "&7&r&7"
+
+item.count46: 1
+
+item.id47: 160
+
+item.meta47: 7
+
+item.name47: "&7&r&7"
+
+item.count47: 1
+
+item.id48: 160
+
+item.meta48: 7
+
+item.name48: "&7&r&7"
+
+item.count48: 1
+
+item.id49: 399
+
+item.meta49: 0
+
+item.name49: "&r&d&lPayment Method:+n&r&7Edit this by yourself"
+
+item.count49: 1
+
+item.id50: 160
+
+item.meta50: 7
+
+item.name50: "&7&r&7"
+
+item.count50: 1
+
+item.id51: 160
+
+item.meta51: 7
+
+item.name51: "&7&r&7"
+
+item.count51: 1
+
+item.id52: 160
+
+item.meta52: 7
+
+item.name52: "&7&r&7"
+
+item.count52: 1
+
+item.id53: 152
+
+item.meta53: 0
+
+item.name53: "&r&c&lEXIT+n+n&r&7Click to exit the+n&7tutorials menu"
+
+item.count53: 1
